@@ -97,6 +97,24 @@ CREATE TABLE spending (
     FOREIGN KEY(customer_id) REFERENCES customers(customer_id)
 );
 
+-- Заполняем данными из исходной таблицы
+INSERT INTO customers (customer_id, year_birth, education, marital_status, income, kidhome, teenhome, dt_customer, recency, country)
+SELECT ID, Year_Birth, Education, Marital_Status, Income, Kidhome, Teenhome, Dt_Customer, Recency, Country
+FROM intermediate_table;
+
+INSERT INTO purchases (customer_id, num_deals_purchases, num_web_purchases, num_catalog_purchases, num_store_purchases, num_web_visits_month)
+SELECT ID, NumDealsPurchases, NumWebPurchases, NumCatalogPurchases, NumStorePurchases, NumWebVisitsMonth
+FROM intermediate_table;
+
+
+INSERT INTO campaigns (customer_id, accepted_cmp3, accepted_cmp4, accepted_cmp5, accepted_cmp1, accepted_cmp2, response, complain)
+SELECT ID, AcceptedCmp3, AcceptedCmp4, AcceptedCmp5, AcceptedCmp1, AcceptedCmp2, Response, Complain
+FROM intermediate_table;
+
+INSERT INTO spending (customer_id, mnt_wines, mnt_fruits, mnt_meat_products, mnt_fish_products, mnt_sweet_products, mnt_gold_prods)
+SELECT ID, MntWines, MntFruits, MntMeatProducts, MntFishProducts, MntSweetProducts, MntGoldProds
+FROM intermediate_table;
+
 -- Отвечаем на вопрос какая маркетинговая компания оказалась наиболее успешной, для этого обратимся к таблице campaigns
 SELECT 
     'Campaign 3' AS Campaign, 
