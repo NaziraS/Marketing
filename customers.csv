@@ -1,0 +1,1001 @@
+customer_id,year_birth,education,marital_status,income,kidhome,teenhome,dt_customer,recency,country
+0,1985,Graduation,Married,70951.00,0,0,2013-05-04,66,"Saudi Arabia"
+1,1961,Graduation,Single,57091.00,0,0,2014-06-15,0,"Canada"
+9,1975,Master,Single,46098.00,1,1,2012-08-18,86,"Canada"
+13,1947,PhD,Widow,25358.00,0,1,2013-07-22,57,"Saudi Arabia"
+17,1971,PhD,Married,60491.00,0,1,2013-09-06,81,"Spain"
+20,1965,"2n Cycle",Married,46891.00,0,1,2013-09-01,91,"Germany"
+22,1976,Graduation,Divorced,46310.00,1,0,2012-12-03,99,"Spain"
+24,1960,Master,Together,17144.00,1,1,2014-02-15,96,"Saudi Arabia"
+25,1958,Graduation,Married,65148.00,0,1,2012-11-16,9,"Canada"
+35,1987,Graduation,Married,25545.00,1,0,2012-09-08,35,"Spain"
+48,1964,Graduation,Together,55761.00,0,1,2014-04-24,97,"Spain"
+49,1970,Graduation,Single,20587.00,1,0,2014-05-11,39,"Canada"
+55,1963,Graduation,Together,56253.00,0,1,2012-12-07,83,"Spain"
+67,1972,Master,Single,46423.00,1,1,2013-09-18,6,"Spain"
+73,1953,PhD,Single,51411.00,1,2,2013-05-26,81,"India"
+75,1982,"2n Cycle",Together,41039.00,0,0,2013-07-25,32,"USA"
+78,1969,Graduation,Married,25293.00,1,0,2013-09-15,51,"Spain"
+87,1981,"2n Cycle",Married,27733.00,1,0,2013-08-26,16,"Germany"
+89,1975,"2n Cycle",Married,22212.00,1,0,2013-12-09,49,"Saudi Arabia"
+92,1988,Graduation,Alone,34176.00,1,0,2014-05-12,12,"Canada"
+113,1951,Graduation,Married,30833.00,1,1,2013-07-16,33,"Spain"
+115,1966,Master,Single,43456.00,0,1,2013-03-26,0,"India"
+123,1951,Graduation,Widow,67046.00,0,1,2013-01-06,92,"Australia"
+125,1958,"2n Cycle",Together,53083.00,1,1,2013-05-15,65,"India"
+143,1970,Graduation,Single,61209.00,0,0,2013-08-25,73,"USA"
+146,1960,PhD,Single,76045.00,0,0,2013-11-15,78,"Spain"
+153,1953,Graduation,Divorced,23272.00,0,0,2013-10-17,29,"Spain"
+158,1945,PhD,Together,71604.00,0,0,2013-11-17,3,"Spain"
+164,1977,PhD,Married,28973.00,0,0,2012-10-13,59,"Spain"
+175,1986,Graduation,Married,71952.00,1,0,2013-01-10,93,"Spain"
+176,1980,"2n Cycle",Single,67506.00,0,1,2014-01-02,73,"Spain"
+178,1956,Graduation,Married,62503.00,0,1,2013-02-18,40,"Spain"
+182,1946,PhD,Together,44124.00,0,1,2013-05-11,62,"Spain"
+193,1996,Basic,Married,14421.00,0,0,2014-02-17,81,"Spain"
+194,1965,Graduation,Married,48006.00,1,1,2014-06-09,55,"Spain"
+195,1972,Graduation,Single,38808.00,1,0,2012-08-26,21,"Spain"
+199,1962,Master,Single,45183.00,0,0,2013-01-20,33,"Canada"
+202,1948,PhD,Widow,82032.00,0,0,2014-04-05,54,"India"
+203,1975,Master,Single,81169.00,0,0,2013-04-14,47,"Spain"
+213,1963,PhD,Single,23091.00,1,1,2014-05-28,98,"Spain"
+217,1956,Master,Single,64857.00,0,0,2012-11-23,78,"Canada"
+221,1955,Graduation,Married,48726.00,0,1,2013-04-27,90,"Germany"
+231,1956,Master,Together,28839.00,1,1,2014-03-11,86,"Spain"
+232,1965,Graduation,Single,61559.00,0,1,2013-07-17,8,"Spain"
+234,1979,Graduation,Divorced,15287.00,1,0,2012-10-10,60,"Spain"
+236,1951,Graduation,Married,34838.00,1,1,2013-01-19,62,"Canada"
+238,1967,"2n Cycle",Together,67309.00,1,1,2013-01-23,76,"Spain"
+241,1952,Graduation,Together,83844.00,0,0,2013-05-12,57,"Spain"
+246,1965,Graduation,Married,66480.00,1,1,2014-05-31,71,"Spain"
+247,1971,Graduation,Married,36715.00,1,0,2012-11-17,16,"Spain"
+252,1963,PhD,Divorced,41003.00,0,0,2013-03-17,11,"Saudi Arabia"
+254,1955,Graduation,Together,53863.00,0,1,2014-05-17,4,"Spain"
+255,1951,Graduation,Divorced,22263.00,1,1,2014-03-30,31,"Spain"
+257,1959,PhD,Married,75032.00,0,1,2013-04-28,74,"Spain"
+263,1945,PhD,Single,45576.00,0,0,2014-05-28,9,"Spain"
+269,1963,PhD,Single,46757.00,0,1,2012-11-16,71,"Spain"
+271,1969,Graduation,Widow,40590.00,1,1,2013-10-02,30,"Canada"
+273,1970,Master,Married,36138.00,1,1,2013-07-16,48,"Germany"
+274,1973,Graduation,Single,34853.00,1,1,2013-12-23,75,"Germany"
+286,1952,Graduation,Single,44213.00,1,1,2013-11-29,48,"Spain"
+291,1970,Graduation,Married,72940.00,0,0,2013-06-19,13,"Saudi Arabia"
+295,1989,Graduation,Single,81217.00,0,0,2013-07-19,77,"Spain"
+304,1981,Master,Single,22944.00,1,0,2013-12-23,67,"Spain"
+309,1961,PhD,Together,63342.00,0,1,2012-10-16,48,"Saudi Arabia"
+310,1970,Master,Married,61872.00,0,1,2013-12-13,81,"Canada"
+313,1968,Graduation,Widow,73455.00,0,0,2013-10-28,98,"Saudi Arabia"
+322,1978,Graduation,Together,42554.00,1,1,2013-01-12,93,"Australia"
+326,1973,Graduation,Married,51148.00,1,1,2013-02-18,38,"India"
+332,1957,Graduation,Married,47743.00,0,1,2013-03-22,56,"Spain"
+339,1972,PhD,Married,57091.00,0,1,2012-11-23,82,"Spain"
+340,1970,Graduation,Divorced,72967.00,0,1,2012-12-15,1,"Germany"
+347,1976,Graduation,Divorced,40780.00,0,1,2012-09-08,30,"Canada"
+359,1950,Graduation,Together,48070.00,0,1,2013-01-13,33,"Spain"
+361,1969,Master,Married,43142.00,1,1,2014-02-18,84,"Australia"
+367,1978,"2n Cycle",Married,36550.00,1,0,2013-02-19,74,"Canada"
+368,1974,Graduation,Married,40049.00,0,1,2012-11-29,61,"India"
+375,1954,Graduation,Divorced,76773.00,0,0,2013-02-25,79,"Spain"
+378,1971,Graduation,Married,52531.00,0,0,2012-12-30,68,"Spain"
+380,1954,Graduation,Divorced,64497.00,0,1,2012-09-10,17,"Saudi Arabia"
+387,1976,Basic,Married,7500.00,0,0,2012-11-13,59,"USA"
+405,1964,Graduation,Divorced,41638.00,0,1,2013-02-13,68,"Spain"
+425,1985,Graduation,Married,55357.00,2,0,2013-02-19,66,"India"
+433,1958,Master,Alone,61331.00,1,1,2013-03-10,42,"Canada"
+437,1976,Master,Divorced,75012.00,0,0,2014-01-25,41,"Australia"
+448,1978,PhD,Single,54880.00,1,0,2013-03-01,57,"Spain"
+450,1958,Master,Together,42315.00,0,1,2013-07-12,90,"USA"
+451,1989,Graduation,Single,9255.00,1,0,2013-12-20,91,"India"
+453,1956,PhD,Widow,35340.00,1,1,2014-06-29,1,"Spain"
+454,1980,Graduation,Together,69508.00,1,0,2012-11-14,48,"Saudi Arabia"
+455,1946,PhD,Married,51012.00,0,0,2013-04-18,86,"Spain"
+456,1986,"2n Cycle",Married,7500.00,1,0,2013-02-07,96,"Spain"
+460,1972,PhD,Married,79930.00,0,0,2012-08-08,72,"Saudi Arabia"
+466,1944,Graduation,Married,65275.00,0,0,2013-04-03,9,"Spain"
+477,1986,Graduation,Married,83512.00,0,0,2014-06-17,31,"Spain"
+486,1988,Graduation,Married,84219.00,0,0,2014-02-02,27,"Canada"
+492,1973,PhD,YOLO,48432.00,0,1,2012-10-18,3,"Canada"
+498,1970,Graduation,Single,30015.00,1,0,2014-02-02,28,"Spain"
+500,1977,Graduation,Together,96876.00,0,0,2013-08-06,79,"Spain"
+503,1985,Master,Married,20559.00,1,0,2013-03-12,88,"Australia"
+520,1974,Graduation,Married,34421.00,1,0,2013-07-01,81,"Spain"
+521,1985,Graduation,Together,54006.00,1,0,2012-09-18,42,"Spain"
+523,1989,Graduation,Married,37155.00,1,0,2013-01-31,51,"Spain"
+524,1966,Basic,Together,22634.00,0,0,2013-01-16,47,"Australia"
+528,1978,Graduation,Married,65819.00,0,0,2012-11-29,99,"India"
+531,1954,PhD,Divorced,57333.00,0,1,2012-09-22,55,"Spain"
+535,1987,Graduation,Divorced,81361.00,0,0,2014-02-25,18,"Germany"
+538,1989,Graduation,Single,46107.00,1,0,2014-02-10,78,"Saudi Arabia"
+544,1954,Graduation,Married,62820.00,0,0,2013-05-11,51,"Spain"
+550,1952,Graduation,Divorced,62335.00,0,1,2013-05-23,87,"Spain"
+564,1981,PhD,Together,56937.00,1,0,2012-08-04,81,"Spain"
+569,1991,Graduation,Single,90273.00,0,0,2013-12-14,32,"Spain"
+574,1964,Graduation,Married,42523.00,0,0,2014-04-23,96,"Germany"
+577,1976,"2n Cycle",Together,26907.00,1,1,2013-08-20,10,"Spain"
+590,1970,Master,Divorced,78579.00,0,0,2012-12-22,35,"Spain"
+591,1957,Graduation,Widow,66033.00,0,1,2013-01-20,76,"India"
+606,1967,Graduation,Single,25930.00,1,1,2013-10-10,87,"Spain"
+607,1955,"2n Cycle",Divorced,41769.00,0,1,2013-02-13,31,"India"
+610,1953,PhD,Together,53593.00,1,1,2012-08-07,60,"Australia"
+615,1960,Graduation,Together,30507.00,0,0,2013-03-11,29,"Spain"
+618,1977,PhD,Married,69389.00,0,1,2012-09-28,17,"Australia"
+624,1984,Master,Single,18890.00,0,0,2012-11-10,5,"Saudi Arabia"
+626,1951,Graduation,Married,32871.00,1,1,2013-03-09,28,"USA"
+635,1966,Master,Married,57183.00,1,1,2013-03-19,51,"Spain"
+640,1951,Graduation,Married,57304.00,0,1,2013-03-11,61,"Spain"
+641,1967,Graduation,Single,52074.00,0,1,2014-04-04,77,"India"
+642,1980,Basic,Married,16005.00,1,0,2012-08-14,69,"Canada"
+663,1989,PhD,Single,33996.00,0,0,2013-09-11,46,"Spain"
+675,1973,Master,Divorced,52034.00,1,1,2013-05-17,67,"Spain"
+679,1957,PhD,Married,37633.00,1,1,2012-09-20,49,"Spain"
+692,1954,Graduation,Together,36807.00,1,1,2012-12-20,88,"India"
+697,1969,Graduation,Together,74918.00,0,0,2013-03-12,78,"Spain"
+701,1971,Graduation,Married,73691.00,0,1,2013-11-06,58,"Spain"
+702,1975,"2n Cycle",Widow,47682.00,0,1,2013-02-15,80,"Spain"
+709,1952,Graduation,Divorced,51537.00,0,1,2012-12-09,27,"Saudi Arabia"
+713,1977,Master,Married,50353.00,0,0,2014-06-08,72,"Spain"
+716,1949,PhD,Together,67911.00,0,1,2014-05-22,63,"Spain"
+736,1983,Graduation,Together,28427.00,1,0,2013-03-21,67,"India"
+737,1949,PhD,Married,80360.00,0,0,2013-03-03,56,"Spain"
+738,1981,"2n Cycle",Single,42395.00,1,1,2014-04-04,35,"India"
+749,1981,Graduation,Together,42162.00,1,0,2013-11-19,31,"Spain"
+760,1975,PhD,Divorced,60554.00,1,0,2013-08-09,8,"Saudi Arabia"
+762,1981,"2n Cycle",Together,75774.00,1,0,2014-05-02,27,"Spain"
+771,1967,Graduation,Together,54178.00,0,1,2014-01-21,79,"Germany"
+773,1971,Master,Divorced,42835.00,1,1,2013-06-30,64,"India"
+793,1973,Graduation,Married,20895.00,1,0,2012-10-06,24,"Australia"
+796,1965,"2n Cycle",Divorced,60161.00,0,1,2012-10-23,17,"Canada"
+798,1987,Graduation,Single,23442.00,1,0,2012-12-24,71,"Spain"
+800,1960,Graduation,Together,44512.00,1,1,2013-08-30,57,"Saudi Arabia"
+803,1968,Graduation,Together,40521.00,1,1,2013-04-05,82,"Spain"
+807,1969,Master,Together,44602.00,1,1,2014-02-15,35,"India"
+810,1975,Graduation,Married,74190.00,0,1,2014-05-12,49,"Spain"
+819,1945,Graduation,Widow,63285.00,0,0,2013-11-05,84,"Spain"
+821,1992,Master,Single,92859.00,0,0,2012-10-19,46,"Canada"
+830,1987,PhD,Single,74004.00,0,0,2014-02-24,5,"India"
+832,1966,PhD,Together,65814.00,0,1,2014-03-02,90,"Spain"
+833,1955,Master,Married,38452.00,1,1,2014-03-30,62,"Spain"
+837,1977,Graduation,Married,54809.00,1,1,2013-09-11,0,"Spain"
+839,1975,PhD,Married,45503.00,1,0,2013-09-25,54,"Spain"
+843,1971,Graduation,Married,64722.00,1,0,2014-05-26,47,"Spain"
+849,1953,Master,Together,56129.00,0,1,2013-06-20,65,"Spain"
+850,1968,Graduation,Single,70566.00,0,1,2013-10-06,4,"Spain"
+851,1972,Master,Married,57136.00,1,1,2013-07-09,48,"Canada"
+868,1966,Graduation,Married,44794.00,0,1,2014-06-08,99,"Saudi Arabia"
+873,1949,Master,Married,62845.00,1,1,2012-10-01,3,"Spain"
+879,1976,Master,Married,49681.00,0,2,2013-11-04,66,"Saudi Arabia"
+880,1966,Basic,Together,22634.00,0,0,2013-01-16,47,"Spain"
+891,1951,Master,Together,29298.00,1,1,2013-09-07,60,"Spain"
+895,1948,PhD,Married,61467.00,0,2,2012-12-09,69,"Spain"
+898,1986,Graduation,Married,23477.00,1,0,2013-10-21,39,"Spain"
+902,1980,Graduation,Together,62994.00,1,0,2014-03-04,74,"Canada"
+905,1986,Graduation,Divorced,21846.00,1,0,2013-10-22,38,"Saudi Arabia"
+907,1975,Graduation,Married,46149.00,0,1,2013-11-29,36,"Spain"
+916,1972,PhD,Single,41644.00,1,1,2014-05-09,67,"Spain"
+922,1979,"2n Cycle",Married,31086.00,1,1,2013-05-04,79,"Germany"
+933,1978,PhD,Married,37717.00,1,0,2012-11-23,31,"Spain"
+938,1981,Graduation,Married,40211.00,1,1,2013-07-30,30,"Spain"
+940,1987,Graduation,Single,57100.00,1,0,2014-05-18,9,"Saudi Arabia"
+942,1982,Graduation,Single,39660.00,1,0,2012-08-08,36,"Spain"
+944,1962,Graduation,Married,56181.00,0,1,2013-01-08,6,"Spain"
+945,1965,Graduation,Together,36317.00,0,1,2013-05-22,53,"Spain"
+946,1958,"2n Cycle",Together,26490.00,0,0,2012-09-22,92,"Spain"
+948,1971,Graduation,Single,10245.00,1,0,2013-05-15,32,"Spain"
+954,1960,Basic,Widow,22123.00,0,0,2014-03-27,77,"Australia"
+955,1962,Master,Together,47175.00,1,1,2012-10-28,81,"Saudi Arabia"
+961,1972,Graduation,Married,74716.00,0,1,2013-09-12,92,"Spain"
+965,1971,Graduation,Divorced,55635.00,0,1,2012-11-13,34,"USA"
+966,1966,Graduation,Married,44529.00,0,1,2013-07-05,98,"Spain"
+967,1976,Graduation,Married,46049.00,1,1,2013-07-21,11,"Spain"
+968,1968,Master,Divorced,41335.00,1,0,2013-12-26,24,"Australia"
+975,1956,Graduation,Single,54252.00,1,1,2013-05-28,25,"Australia"
+977,1957,Graduation,Together,47320.00,0,1,2013-08-01,10,"Canada"
+979,1975,Graduation,Single,33249.00,1,0,2013-02-20,11,"Spain"
+983,1984,Graduation,Married,40059.00,1,0,2013-09-28,82,"USA"
+988,1965,Graduation,Married,81168.00,0,0,2014-05-07,84,"Spain"
+999,1991,Graduation,Single,86037.00,0,0,2013-01-02,95,"Canada"
+1000,1961,Master,Together,74881.00,1,1,2013-03-08,48,"Spain"
+1008,1981,PhD,Together,44953.00,0,0,2012-12-21,31,"Germany"
+1010,1977,Graduation,Together,46931.00,2,1,2014-04-24,94,"Spain"
+1012,1952,Graduation,Single,61823.00,0,1,2013-02-18,26,"Australia"
+1016,1959,PhD,Single,34554.00,0,1,2014-03-30,43,"Canada"
+1020,1973,Graduation,Married,79593.00,0,0,2014-05-12,70,"Spain"
+1029,1970,PhD,Together,64413.00,0,1,2013-08-01,27,"Spain"
+1030,1965,PhD,Single,40637.00,1,1,2013-07-17,72,"Saudi Arabia"
+1031,1989,"2n Cycle",Married,85710.00,0,0,2013-05-05,5,"India"
+1041,1973,PhD,Single,48432.00,0,1,2012-10-18,3,"Saudi Arabia"
+1044,1953,Graduation,Together,58398.00,0,0,2013-05-14,44,"Australia"
+1045,1965,Graduation,Together,52117.00,0,1,2012-08-16,55,"Spain"
+1048,1972,Master,Married,35641.00,1,0,2013-07-14,11,"Saudi Arabia"
+1050,1952,Graduation,Married,28332.00,0,0,2014-04-30,58,"Germany"
+1052,1969,Graduation,Married,56796.00,0,1,2013-02-16,24,"Australia"
+1055,1976,Master,Married,53204.00,1,1,2014-03-20,40,"Germany"
+1064,1971,PhD,Married,42403.00,1,0,2013-12-11,18,"Spain"
+1065,1963,Graduation,Single,80695.00,0,0,2013-12-29,85,"USA"
+1071,1976,PhD,Divorced,70179.00,0,1,2013-07-21,10,"USA"
+1072,1965,PhD,Single,40760.00,0,1,2013-08-30,64,"Canada"
+1077,1974,Graduation,Together,56715.00,0,0,2012-12-05,52,"Spain"
+1079,1971,PhD,Married,71969.00,0,1,2012-10-16,59,"India"
+1081,1957,PhD,Married,75283.00,1,2,2013-03-27,26,"Saudi Arabia"
+1087,1975,Master,Together,22669.00,1,0,2013-05-22,30,"Spain"
+1092,1980,Graduation,Married,61014.00,0,1,2012-08-11,17,"India"
+1100,1960,Master,Together,41275.00,1,2,2014-03-24,33,"Canada"
+1103,1976,Master,Married,81929.00,1,0,2012-09-29,60,"Australia"
+1109,1982,Master,Together,27590.00,1,0,2013-04-23,38,"Spain"
+1118,1956,Master,Married,50965.00,0,1,2013-02-20,87,"Spain"
+1127,1973,PhD,Married,85844.00,0,0,2014-05-29,62,"Spain"
+1131,1967,PhD,Single,52569.00,0,1,2014-04-05,54,"Saudi Arabia"
+1135,1960,Master,Together,17144.00,1,1,2014-02-15,96,"Canada"
+1137,1964,Graduation,Single,81246.00,0,0,2013-12-29,87,"Spain"
+1139,1984,PhD,Married,73356.00,0,0,2014-02-06,56,"Spain"
+1142,1953,PhD,Married,55707.00,0,1,2013-12-22,91,"Spain"
+1143,1972,Graduation,Married,22063.00,1,0,2013-08-08,43,"Canada"
+1146,1949,Master,Together,49912.00,0,1,2012-09-07,5,"Australia"
+1150,1899,PhD,Together,83532.00,0,0,2013-09-26,36,"Spain"
+1158,1966,Graduation,Divorced,48877.00,0,1,2014-01-05,27,"Spain"
+1160,1970,Graduation,Married,13260.00,1,1,2013-08-23,48,"Spain"
+1162,1987,PhD,Single,42000.00,0,0,2013-01-10,23,"Spain"
+1165,1958,PhD,Single,50729.00,1,1,2013-05-02,62,"Saudi Arabia"
+1168,1978,PhD,Married,72159.00,0,0,2012-10-29,62,"Spain"
+1170,1975,Graduation,Married,27573.00,1,0,2013-03-25,45,"Spain"
+1172,1983,PhD,Married,92491.00,0,0,2013-05-01,71,"Spain"
+1173,1947,Master,Together,77632.00,0,0,2013-03-10,73,"Spain"
+1175,1983,Master,Married,36262.00,0,0,2013-09-20,24,"Spain"
+1176,1973,Graduation,Married,26228.00,1,0,2013-09-22,50,"Spain"
+1177,1966,Master,Together,49618.00,1,1,2013-01-26,77,"Spain"
+1183,1949,Master,Married,36408.00,1,1,2013-09-21,11,"Germany"
+1184,1968,PhD,Divorced,69674.00,0,2,2013-05-22,46,"Saudi Arabia"
+1204,1970,PhD,Married,67536.00,0,1,2013-05-22,45,"Saudi Arabia"
+1212,1973,Graduation,Married,52845.00,1,0,2013-08-13,7,"Spain"
+1215,1978,Graduation,Together,70440.00,0,0,2013-10-08,49,"Spain"
+1225,1963,Graduation,Married,80124.00,0,0,2014-06-26,47,"Saudi Arabia"
+1232,1982,PhD,Together,70038.00,0,0,2013-10-25,54,"Germany"
+1241,1984,"2n Cycle",Married,14796.00,1,0,2012-09-17,1,"Germany"
+1245,1966,Graduation,Single,63810.00,0,1,2012-11-11,45,"Spain"
+1250,1976,Graduation,Single,37697.00,1,0,2014-02-07,82,"Spain"
+1272,1965,Master,Single,55250.00,0,1,2012-10-21,49,"Australia"
+1277,1960,Graduation,Together,78468.00,0,0,2014-04-09,29,"USA"
+1291,1978,PhD,Together,27683.00,1,0,2012-08-04,90,"Spain"
+1295,1963,Graduation,Married,NULL,0,1,2013-08-11,96,"Canada"
+1307,1978,Graduation,Divorced,41986.00,0,1,2014-02-09,15,"Spain"
+1321,1974,Graduation,Married,26067.00,1,0,2013-11-04,49,"Canada"
+1324,1988,Graduation,Married,38872.00,1,0,2013-05-30,93,"India"
+1328,1982,"2n Cycle",Married,57937.00,0,1,2014-02-16,56,"Saudi Arabia"
+1331,1977,Graduation,Single,35790.00,1,0,2013-01-02,54,"Australia"
+1340,1986,Graduation,Married,92910.00,0,0,2014-04-24,42,"Spain"
+1343,1968,Graduation,Together,58554.00,1,1,2012-09-26,55,"USA"
+1349,1970,Graduation,Married,50447.00,2,0,2014-04-21,4,"India"
+1351,1956,Master,Together,58656.00,0,1,2012-09-20,25,"Spain"
+1357,1970,Graduation,Together,74854.00,1,2,2013-04-08,90,"Germany"
+1361,1974,Master,Married,82584.00,0,0,2013-06-04,26,"Spain"
+1362,1972,Graduation,Single,31907.00,0,0,2013-03-04,75,"Germany"
+1371,1976,Graduation,Single,79941.00,0,0,2014-06-28,72,"Australia"
+1377,1954,Master,Widow,44551.00,0,1,2013-08-31,24,"Saudi Arabia"
+1378,1972,"2n Cycle",Together,50334.00,0,1,2013-07-24,24,"Saudi Arabia"
+1379,1992,Master,Together,42670.00,0,0,2013-04-27,12,"Saudi Arabia"
+1381,1982,PhD,Single,38513.00,1,0,2014-01-28,20,"Spain"
+1384,1992,Basic,Married,17256.00,1,0,2013-11-23,10,"USA"
+1386,1967,Graduation,Together,32474.00,1,1,2014-05-11,0,"Australia"
+1388,1975,Graduation,Single,33249.00,1,0,2013-02-20,11,"Australia"
+1399,1958,Graduation,Married,72905.00,0,0,2014-01-21,52,"Spain"
+1402,1954,Master,Married,66991.00,0,0,2012-09-11,1,"Germany"
+1403,1975,"2n Cycle",Together,34984.00,1,1,2012-09-06,40,"Spain"
+1404,1968,Graduation,Together,34916.00,2,0,2013-05-15,89,"Saudi Arabia"
+1406,1975,Graduation,Single,53201.00,1,1,2013-02-12,49,"Spain"
+1407,1986,Basic,Married,20425.00,1,0,2012-10-29,5,"Germany"
+1409,1951,Graduation,Together,40689.00,0,1,2013-03-18,69,"USA"
+1411,1952,Graduation,Divorced,82623.00,0,0,2013-11-10,58,"Spain"
+1419,1950,Graduation,Together,34026.00,1,1,2013-08-05,11,"Spain"
+1440,1978,"2n Cycle",Together,52513.00,0,0,2012-09-04,84,"Spain"
+1446,1956,Master,Single,86424.00,0,0,2014-04-05,12,"Saudi Arabia"
+1448,1963,Master,Married,33562.00,1,2,2014-06-25,33,"India"
+1453,1943,PhD,Widow,57513.00,0,0,2013-07-06,59,"Spain"
+1456,1979,Graduation,Single,60474.00,0,1,2013-04-01,25,"India"
+1458,1982,Master,Married,21059.00,1,0,2014-01-07,40,"Spain"
+1459,1966,PhD,Married,69063.00,0,1,2012-11-07,16,"Spain"
+1461,1965,PhD,Divorced,36921.00,1,1,2013-07-28,74,"Canada"
+1463,1958,Graduation,Single,45160.00,1,1,2014-03-29,9,"Australia"
+1473,1960,"2n Cycle",Single,47823.00,0,1,2013-07-23,0,"Canada"
+1490,1962,Graduation,Married,55759.00,0,1,2012-11-28,84,"Canada"
+1491,1965,"2n Cycle",Together,71488.00,0,0,2013-02-18,87,"Canada"
+1497,1952,Graduation,Single,47958.00,0,1,2013-01-19,8,"Saudi Arabia"
+1501,1982,PhD,Married,160803.00,0,0,2012-08-04,21,"USA"
+1502,1983,Graduation,Together,28427.00,1,0,2013-03-21,67,"Spain"
+1503,1976,PhD,Together,162397.00,1,1,2013-06-03,31,"Spain"
+1506,1975,Graduation,Single,42160.00,1,1,2013-06-28,26,"Spain"
+1509,1958,PhD,Together,84460.00,0,0,2013-01-04,80,"Spain"
+1513,1979,"2n Cycle",Together,60839.00,1,1,2012-08-28,72,"Spain"
+1515,1975,Master,Together,34176.00,0,1,2014-01-22,9,"Canada"
+1517,1969,Graduation,Single,30822.00,1,0,2013-06-14,92,"Spain"
+1518,1965,Master,Married,62694.00,1,1,2013-06-17,29,"Spain"
+1519,1972,PhD,Single,38578.00,1,1,2013-06-22,2,"Spain"
+1523,1973,Graduation,Married,59041.00,1,1,2014-05-07,25,"Saudi Arabia"
+1524,1983,"2n Cycle",Single,81698.00,0,0,2013-03-01,1,"Spain"
+1542,1975,Graduation,Single,56243.00,1,2,2013-12-30,26,"USA"
+1544,1967,Master,Divorced,81380.00,0,0,2012-12-22,51,"Canada"
+1545,1986,Graduation,Married,38508.00,1,0,2013-08-02,95,"Spain"
+1553,1946,Graduation,Together,82657.00,0,0,2013-09-27,71,"Germany"
+1570,1951,PhD,Together,69702.00,0,1,2013-02-19,8,"Spain"
+1577,1946,Graduation,Married,78569.00,0,0,2014-02-19,14,"Spain"
+1581,1980,Graduation,Married,37406.00,1,0,2013-10-10,18,"Spain"
+1584,1977,Graduation,Married,41443.00,1,0,2014-04-01,79,"Saudi Arabia"
+1592,1970,Graduation,Married,90765.00,0,0,2014-01-24,25,"Canada"
+1600,1965,Master,Married,56962.00,2,1,2013-10-11,60,"Saudi Arabia"
+1604,1960,Master,Married,47353.00,0,1,2013-11-13,93,"Spain"
+1606,1971,Graduation,Together,38590.00,1,0,2013-05-15,65,"Saudi Arabia"
+1612,1981,PhD,Single,NULL,1,0,2013-05-31,82,"Australia"
+1618,1965,Graduation,Together,56046.00,0,0,2013-01-02,9,"Germany"
+1619,1956,Graduation,Married,90369.00,0,0,2014-04-28,2,"Spain"
+1626,1973,PhD,Divorced,35860.00,1,1,2014-05-19,37,"Saudi Arabia"
+1627,1957,"2n Cycle",Divorced,77297.00,0,0,2013-01-26,84,"Spain"
+1628,1971,Graduation,Together,71796.00,0,0,2013-10-24,54,"Saudi Arabia"
+1630,1979,Graduation,Single,61825.00,0,1,2013-08-07,56,"Spain"
+1631,1965,PhD,Together,65220.00,0,0,2012-09-03,3,"Germany"
+1640,1954,Graduation,Divorced,64587.00,1,1,2014-06-22,49,"Spain"
+1646,1972,Basic,Married,25224.00,1,0,2014-03-16,36,"Canada"
+1650,1960,Master,Married,81843.00,0,0,2013-04-22,13,"Spain"
+1655,1979,Graduation,Together,34350.00,1,0,2013-10-19,81,"Australia"
+1663,1978,PhD,Together,34043.00,1,0,2013-10-25,97,"Spain"
+1665,1964,PhD,Divorced,64140.00,0,2,2013-09-23,71,"Saudi Arabia"
+1672,1974,PhD,Together,65640.00,0,1,2014-03-01,74,"Saudi Arabia"
+1676,1975,Graduation,Married,43057.00,0,1,2013-10-30,30,"Spain"
+1685,1967,PhD,Together,62981.00,0,0,2013-03-17,21,"Canada"
+1710,1978,Graduation,Single,30168.00,1,0,2013-03-07,51,"Spain"
+1715,1978,Graduation,Together,25851.00,1,0,2013-02-11,45,"Australia"
+1717,1988,Graduation,Single,39747.00,1,0,2014-04-13,43,"Saudi Arabia"
+1726,1970,Graduation,Single,22585.00,0,0,2013-03-18,23,"Spain"
+1729,1961,PhD,Together,66426.00,0,1,2013-10-02,14,"Spain"
+1734,1968,PhD,Together,40706.00,2,1,2013-01-17,37,"Saudi Arabia"
+1740,1944,Graduation,Married,55956.00,0,0,2014-04-07,22,"Spain"
+1743,1974,Graduation,Single,69719.00,0,0,2014-05-26,99,"Spain"
+1744,1965,Basic,Single,23529.00,0,1,2013-01-07,67,"Spain"
+1745,1962,PhD,Divorced,85696.00,0,0,2013-05-03,88,"Spain"
+1755,1988,"2n Cycle",Together,45204.00,1,0,2014-04-11,93,"Saudi Arabia"
+1763,1988,Graduation,Together,87679.00,0,0,2013-07-27,62,"Canada"
+1764,1975,Graduation,Single,33955.00,1,0,2013-08-09,92,"Saudi Arabia"
+1772,1975,PhD,Married,79174.00,0,0,2013-01-11,2,"Canada"
+1773,1978,"2n Cycle",Married,12393.00,0,0,2012-12-04,38,"Saudi Arabia"
+1777,1980,Basic,Married,25965.00,0,0,2012-09-07,29,"Spain"
+1802,1971,Graduation,Married,64795.00,0,1,2013-01-17,23,"Spain"
+1818,1971,PhD,Together,29732.00,1,0,2014-03-25,23,"Canada"
+1826,1970,Graduation,Divorced,84835.00,0,0,2014-06-16,0,"Spain"
+1829,1961,PhD,Divorced,54959.00,0,1,2013-01-19,55,"Spain"
+1833,1974,PhD,Single,39190.00,1,0,2014-04-26,91,"Spain"
+1834,1978,Master,Single,35544.00,1,0,2014-03-08,77,"Saudi Arabia"
+1839,1974,Graduation,Single,43322.00,0,0,2014-04-21,25,"India"
+1857,1952,Graduation,Single,47139.00,1,1,2014-03-06,2,"Spain"
+1859,1972,Master,Married,75251.00,0,0,2012-08-27,34,"Germany"
+1867,1957,Graduation,Single,64849.00,0,0,2012-11-13,42,"Spain"
+1876,1990,Graduation,Married,18929.00,0,0,2013-02-16,15,"India"
+1878,1985,"2n Cycle",Married,23148.00,0,0,2014-02-18,83,"Spain"
+1880,1959,PhD,Together,53537.00,1,1,2014-01-30,17,"India"
+1890,1971,"2n Cycle",Together,42033.00,1,1,2012-09-19,95,"Spain"
+1891,1980,Master,Divorced,78789.00,0,0,2012-08-08,12,"Spain"
+1907,1950,Master,Divorced,63120.00,0,1,2012-09-28,53,"Spain"
+1911,1987,Graduation,Together,67430.00,0,0,2012-09-05,6,"Germany"
+1915,1951,PhD,Married,78939.00,0,0,2013-12-12,57,"Germany"
+1916,1954,Master,Married,45736.00,0,1,2013-07-24,92,"Germany"
+1920,1972,Graduation,Married,40321.00,1,1,2013-07-29,59,"Spain"
+1921,1967,PhD,Married,59062.00,2,1,2013-10-03,74,"Spain"
+1927,1973,"2n Cycle",Together,69401.00,0,1,2014-03-23,41,"Germany"
+1928,1973,Graduation,Married,31814.00,1,0,2013-02-09,73,"Saudi Arabia"
+1940,1986,Graduation,Married,25252.00,1,0,2013-07-12,26,"Australia"
+1945,1962,Graduation,Married,71434.00,0,1,2013-09-18,4,"Spain"
+1951,1981,Basic,Married,34445.00,0,0,2013-01-27,92,"Spain"
+1958,1973,PhD,Together,55012.00,0,1,2014-03-21,85,"Spain"
+1964,1951,Graduation,Together,86610.00,0,0,2013-09-05,66,"Spain"
+1966,1965,PhD,Married,84618.00,0,0,2013-11-22,96,"Australia"
+1968,1971,Graduation,Widow,45684.00,1,0,2013-12-02,37,"Saudi Arabia"
+1970,1968,Master,Together,34053.00,0,1,2012-09-10,14,"Spain"
+1987,1987,Basic,Single,21063.00,1,0,2013-09-25,34,"Spain"
+1990,1974,PhD,Single,63159.00,0,0,2012-11-05,74,"Spain"
+1991,1967,Graduation,Together,44931.00,0,1,2014-01-18,0,"Spain"
+1992,1964,Graduation,Married,60597.00,0,1,2014-01-01,2,"Spain"
+1993,1949,PhD,Married,58607.00,0,1,2012-12-23,63,"USA"
+1994,1983,Graduation,Married,NULL,1,0,2013-11-15,11,"USA"
+1998,1976,Graduation,Single,37697.00,1,0,2014-02-07,82,"India"
+2002,1958,Graduation,Divorced,71964.00,0,0,2013-05-20,81,"Spain"
+2004,1969,Graduation,Single,72679.00,0,1,2013-09-18,65,"Spain"
+2005,1990,Graduation,Married,35765.00,1,0,2013-12-11,86,"Canada"
+2008,1978,Graduation,Married,77583.00,0,0,2014-02-10,93,"Saudi Arabia"
+2021,1975,Graduation,Married,61456.00,0,1,2013-03-27,47,"Spain"
+2036,1973,PhD,Together,57906.00,0,1,2013-06-11,29,"India"
+2055,1973,PhD,Divorced,35860.00,1,1,2014-05-19,37,"Spain"
+2061,1955,Graduation,Married,50737.00,0,1,2013-05-11,61,"Spain"
+2066,1949,Graduation,Together,38823.00,0,1,2012-08-30,56,"Spain"
+2072,1969,PhD,Together,53374.00,0,1,2012-08-16,34,"Canada"
+2075,1969,Graduation,Married,72460.00,0,0,2013-11-14,56,"Saudi Arabia"
+2079,1947,"2n Cycle",Married,81044.00,0,0,2013-12-27,0,"USA"
+2088,1972,Graduation,Together,84906.00,0,0,2013-10-04,98,"Germany"
+2098,1969,PhD,Married,33581.00,2,0,2013-01-08,38,"Spain"
+2106,1974,"2n Cycle",Married,20130.00,0,0,2014-03-17,99,"Spain"
+2109,1990,Graduation,Single,96843.00,0,0,2013-04-23,60,"Spain"
+2114,1946,PhD,Single,82800.00,0,0,2012-11-24,23,"USA"
+2115,1957,Graduation,Together,50116.00,1,1,2014-06-20,68,"Germany"
+2118,1964,"2n Cycle",Married,62905.00,0,1,2013-09-10,68,"Spain"
+2125,1959,Graduation,Divorced,63033.00,0,0,2013-11-15,82,"USA"
+2130,1982,Graduation,Together,45203.00,2,0,2014-03-23,4,"Saudi Arabia"
+2131,1959,PhD,Divorced,62859.00,0,1,2012-12-30,37,"Spain"
+2134,1952,Graduation,Single,53700.00,0,1,2012-08-17,94,"Saudi Arabia"
+2139,1975,Master,Married,7500.00,1,0,2013-10-02,19,"Australia"
+2147,1969,Graduation,Together,76653.00,0,0,2013-08-16,91,"Spain"
+2150,1958,PhD,Widow,80995.00,0,1,2013-05-11,83,"Canada"
+2154,1971,Graduation,Widow,30372.00,1,1,2012-12-25,33,"Spain"
+2156,1955,PhD,Married,22554.00,1,1,2012-11-03,38,"Spain"
+2157,1972,Graduation,Together,26290.00,1,1,2013-01-12,49,"Canada"
+2162,1976,Graduation,Married,56939.00,0,1,2013-09-18,19,"Spain"
+2166,1960,"2n Cycle",Widow,46779.00,1,1,2013-07-12,55,"Saudi Arabia"
+2173,1952,Graduation,Widow,40049.00,0,1,2013-10-16,23,"Spain"
+2174,1954,Graduation,Single,46344.00,1,1,2014-03-08,38,"USA"
+2176,1972,Graduation,Married,80134.00,1,0,2013-05-20,40,"Saudi Arabia"
+2181,1970,Graduation,Married,70617.00,0,0,2013-06-23,45,"Spain"
+2186,1977,"2n Cycle",Together,82326.00,0,0,2014-03-10,30,"Spain"
+2202,1978,Graduation,Together,41154.00,0,1,2013-04-09,98,"Spain"
+2217,1975,"2n Cycle",Married,37284.00,1,1,2013-03-29,46,"India"
+2223,1965,"2n Cycle",Divorced,64176.00,0,1,2012-08-03,52,"Spain"
+2225,1977,Graduation,Divorced,82582.00,0,0,2014-06-07,54,"Australia"
+2227,1958,"2n Cycle",Together,26490.00,0,0,2012-09-22,92,"Saudi Arabia"
+2230,1970,PhD,Married,23626.00,1,0,2014-05-24,84,"Germany"
+2245,1969,Master,Married,43641.00,1,1,2013-04-22,50,"Spain"
+2246,1965,"2n Cycle",Married,46891.00,0,1,2013-09-01,91,"Spain"
+2253,1990,Graduation,Married,18929.00,0,0,2013-02-16,15,"Spain"
+2254,1983,Graduation,Married,69520.00,0,0,2013-07-07,95,"Australia"
+2256,1973,Master,Married,27159.00,1,1,2014-03-29,33,"Spain"
+2258,1986,Graduation,Married,32880.00,1,0,2012-12-04,76,"Spain"
+2261,1969,Graduation,Married,26304.00,1,0,2013-06-23,5,"Germany"
+2262,1965,Master,Together,45143.00,0,1,2013-08-26,74,"Saudi Arabia"
+2276,1955,Graduation,Single,57959.00,0,1,2013-05-02,71,"Spain"
+2278,1985,"2n Cycle",Single,33812.00,1,0,2012-11-03,86,"USA"
+2281,1970,Graduation,Single,33697.00,1,0,2013-09-15,34,"Germany"
+2285,1954,Master,Together,36634.00,0,1,2013-05-28,0,"Saudi Arabia"
+2286,1962,Graduation,Single,50785.00,1,1,2013-09-10,27,"Canada"
+2292,1985,Graduation,Single,22327.00,1,0,2013-08-02,94,"Spain"
+2295,1954,PhD,Married,62670.00,0,1,2014-02-02,57,"Saudi Arabia"
+2296,1975,Master,Married,37368.00,1,0,2013-12-16,4,"Spain"
+2304,1963,PhD,Together,66313.00,0,1,2013-09-16,86,"Saudi Arabia"
+2308,1954,Graduation,Married,46734.00,0,1,2012-11-18,40,"Spain"
+2315,1960,Graduation,Divorced,58401.00,0,1,2014-04-20,55,"Spain"
+2320,1978,"2n Cycle",Married,47025.00,0,1,2013-09-12,98,"Spain"
+2324,1972,Graduation,Together,77044.00,0,1,2013-10-27,12,"Spain"
+2326,1990,Graduation,Married,18929.00,0,0,2013-02-16,15,"Spain"
+2337,1971,Graduation,Divorced,29819.00,1,0,2013-10-24,77,"Spain"
+2345,1982,PhD,Together,70038.00,0,0,2013-10-25,54,"Australia"
+2350,1972,Graduation,Married,59666.00,1,1,2013-03-22,87,"Canada"
+2371,1972,Graduation,Married,33622.00,1,1,2013-04-13,22,"Germany"
+2375,1972,Graduation,Together,30261.00,1,2,2012-09-25,75,"Spain"
+2379,1953,Graduation,Single,69267.00,0,0,2012-09-22,31,"Saudi Arabia"
+2387,1952,Master,Together,43776.00,1,1,2013-02-03,9,"Saudi Arabia"
+2392,1972,Graduation,Married,40321.00,1,1,2013-07-29,59,"Spain"
+2404,1976,Graduation,Married,53359.00,1,1,2013-05-27,4,"USA"
+2406,1949,Graduation,Together,54591.00,0,1,2013-08-05,63,"Australia"
+2407,1982,Graduation,Married,69109.00,0,0,2012-11-09,10,"USA"
+2408,1976,Graduation,Married,58597.00,1,1,2012-11-20,20,"India"
+2410,1969,Graduation,Single,81657.00,0,0,2014-01-22,69,"Spain"
+2415,1962,Graduation,Together,62568.00,0,1,2014-04-07,99,"Spain"
+2416,1969,PhD,Single,66582.00,0,0,2014-03-03,83,"Spain"
+2426,1964,PhD,Divorced,78825.00,0,0,2012-09-14,35,"Spain"
+2428,1970,Graduation,Married,28164.00,1,0,2013-05-04,23,"Germany"
+2429,1954,Graduation,Divorced,72071.00,0,1,2013-02-14,4,"Canada"
+2431,1990,Graduation,Married,18222.00,0,0,2012-12-31,70,"Spain"
+2437,1989,Graduation,Married,NULL,0,0,2013-06-03,69,"Spain"
+2445,1974,PhD,Together,28440.00,1,0,2013-07-07,87,"Spain"
+2447,1979,Graduation,Together,30545.00,1,0,2012-10-17,71,"India"
+2452,1971,Graduation,Together,34600.00,1,1,2013-01-01,8,"Spain"
+2453,1960,Graduation,Together,62807.00,0,1,2012-08-31,83,"Spain"
+2456,1975,PhD,Married,40233.00,0,1,2013-10-14,84,"Saudi Arabia"
+2457,1975,Basic,Married,30801.00,0,1,2012-10-26,23,"Spain"
+2461,1955,Master,Single,51124.00,1,1,2013-12-18,79,"Canada"
+2471,1965,Graduation,Married,61482.00,0,0,2014-06-27,39,"Saudi Arabia"
+2478,1973,Graduation,Married,25410.00,1,0,2013-08-31,48,"Spain"
+2488,1956,"2n Cycle",Divorced,31395.00,1,1,2013-03-23,80,"Spain"
+2493,1966,Graduation,Married,61286.00,0,1,2013-08-02,34,"Germany"
+2495,1974,Master,Married,83891.00,0,1,2014-06-20,24,"Spain"
+2499,1958,"2n Cycle",Single,75342.00,0,1,2013-05-06,38,"Spain"
+2516,1969,"2n Cycle",Married,46831.00,1,1,2013-06-08,84,"Spain"
+2518,1986,"2n Cycle",Together,20491.00,0,0,2013-01-25,16,"Germany"
+2521,1971,Master,Married,35178.00,1,0,2013-01-10,10,"Spain"
+2525,1974,PhD,Married,38410.00,0,0,2012-09-14,65,"Canada"
+2532,1987,Master,Single,73454.00,0,0,2014-03-01,95,"Spain"
+2534,1953,Graduation,Married,37716.00,0,1,2014-04-21,4,"Australia"
+2535,1978,Master,Married,88097.00,1,0,2012-08-18,24,"Spain"
+2541,1976,Graduation,Married,24027.00,1,0,2013-06-09,7,"Spain"
+2544,1951,Master,Divorced,57530.00,0,1,2013-10-12,68,"India"
+2546,1977,"2n Cycle",Single,31878.00,0,1,2014-06-22,7,"Spain"
+2549,1983,PhD,Together,21840.00,1,0,2013-07-21,80,"Spain"
+2552,1955,PhD,Single,55521.00,1,2,2013-10-22,11,"Spain"
+2557,1970,Master,Single,29548.00,1,0,2013-08-29,52,"Spain"
+2561,1966,Graduation,Single,63810.00,0,1,2012-11-11,45,"Germany"
+2563,1961,Basic,Married,28249.00,0,0,2014-06-15,80,"India"
+2564,1953,Graduation,Together,61278.00,0,1,2014-01-04,87,"Spain"
+2565,1955,Master,Divorced,70638.00,0,0,2013-06-01,69,"Saudi Arabia"
+2569,1987,Graduation,Married,17323.00,0,0,2012-10-10,38,"USA"
+2570,1968,Graduation,Together,56534.00,0,1,2013-07-23,35,"Spain"
+2574,1977,PhD,Married,61996.00,0,1,2013-01-31,27,"Spain"
+2579,1957,Graduation,Married,71113.00,0,1,2013-12-17,95,"Spain"
+2587,1972,PhD,Married,29791.00,1,0,2014-05-15,21,"Australia"
+2589,1972,Graduation,Divorced,26759.00,1,0,2014-02-07,65,"Australia"
+2591,1959,Graduation,Widow,76320.00,0,1,2014-06-22,49,"USA"
+2607,1953,Graduation,Single,40464.00,0,1,2013-01-11,78,"Spain"
+2611,1959,Master,Together,82576.00,0,0,2012-08-01,66,"Saudi Arabia"
+2612,1987,Graduation,Married,75794.00,0,0,2013-12-24,33,"Saudi Arabia"
+2613,1960,Master,Married,54197.00,0,1,2014-04-03,16,"Spain"
+2620,1974,PhD,Married,34596.00,1,0,2013-04-13,48,"Saudi Arabia"
+2625,1954,"2n Cycle",Single,42607.00,0,1,2013-11-17,30,"Saudi Arabia"
+2631,1982,Graduation,Together,71853.00,0,0,2013-05-08,29,"Spain"
+2632,1954,Graduation,Married,50501.00,1,1,2013-06-18,10,"India"
+2634,1979,Master,Single,16653.00,1,0,2014-04-18,10,"Spain"
+2639,1966,Graduation,Single,43602.00,1,1,2014-01-10,45,"Saudi Arabia"
+2656,1971,Graduation,Divorced,40851.00,1,1,2013-02-21,63,"Canada"
+2661,1964,Graduation,Single,18701.00,1,1,2013-06-04,95,"Saudi Arabia"
+2666,1972,Master,Married,76234.00,0,1,2014-02-06,21,"Canada"
+2669,1993,Graduation,Single,74293.00,0,0,2014-05-04,66,"Spain"
+2674,1958,Master,Single,75154.00,0,1,2012-09-04,79,"USA"
+2677,1956,Graduation,Together,46097.00,0,1,2013-03-31,11,"Saudi Arabia"
+2678,1990,Graduation,Single,34412.00,1,0,2013-02-13,62,"Australia"
+2681,1984,"2n Cycle",Married,65370.00,0,0,2013-08-01,1,"Spain"
+2683,1969,Graduation,Married,52413.00,0,2,2013-02-02,56,"Canada"
+2686,1969,Basic,Together,22390.00,0,0,2013-10-21,49,"Australia"
+2694,1967,Graduation,Married,42664.00,0,1,2014-03-18,44,"Spain"
+2698,1976,Graduation,Single,47025.00,0,1,2013-11-07,52,"USA"
+2711,1976,Master,Together,30560.00,1,0,2013-06-27,6,"Canada"
+2712,1956,Graduation,Married,71866.00,0,1,2013-12-25,85,"Australia"
+2715,1966,Master,Divorced,29435.00,1,1,2012-08-06,11,"Canada"
+2724,1981,Master,Single,36143.00,1,0,2014-03-30,33,"Spain"
+2727,1973,Graduation,Together,57100.00,0,0,2013-12-04,19,"Saudi Arabia"
+2730,1955,Graduation,Single,80317.00,0,0,2013-08-20,64,"Canada"
+2736,1978,Graduation,Married,73807.00,0,1,2013-01-02,88,"India"
+2740,1958,PhD,Widow,33438.00,1,1,2013-09-22,81,"Spain"
+2747,1988,PhD,Married,67546.00,0,0,2012-08-31,90,"Spain"
+2781,1981,Graduation,Single,72066.00,0,0,2014-06-23,55,"Saudi Arabia"
+2782,1961,PhD,Married,54456.00,0,1,2013-07-11,23,"Spain"
+2793,1976,PhD,Divorced,70179.00,0,1,2013-07-21,10,"Saudi Arabia"
+2795,1958,Master,Single,30523.00,2,1,2013-07-01,0,"Canada"
+2797,1977,Graduation,Married,72117.00,0,1,2013-08-20,34,"Spain"
+2798,1977,PhD,Together,102160.00,0,0,2012-11-02,54,"Saudi Arabia"
+2802,1992,"2n Cycle",Married,87000.00,0,0,2012-12-15,61,"Australia"
+2804,1975,Master,Single,46098.00,1,1,2012-08-18,86,"India"
+2807,1969,Graduation,Married,56796.00,0,1,2013-02-16,24,"Spain"
+2811,1963,PhD,Single,48918.00,1,1,2014-04-12,21,"Spain"
+2814,1976,Master,Together,30560.00,1,0,2013-06-27,6,"Saudi Arabia"
+2815,1975,Graduation,Married,33183.00,1,0,2014-02-24,46,"Spain"
+2826,1967,Graduation,Married,22574.00,2,1,2013-10-28,28,"Spain"
+2829,1955,Graduation,Married,65210.00,0,1,2014-03-10,25,"Canada"
+2831,1976,Graduation,Together,78416.00,0,1,2014-06-27,99,"Spain"
+2836,1972,PhD,Married,43269.00,1,0,2013-09-16,61,"Germany"
+2849,1979,Graduation,Single,60474.00,0,1,2013-04-01,25,"Canada"
+2853,1980,Graduation,Single,51766.00,1,0,2014-03-11,74,"Canada"
+2861,1983,Graduation,Single,24072.00,1,0,2013-04-16,79,"Spain"
+2863,1970,Graduation,Single,NULL,1,2,2013-08-23,67,"Spain"
+2868,1949,PhD,Single,26518.00,1,1,2013-04-08,33,"USA"
+2870,1973,Graduation,Married,49094.00,0,1,2012-09-21,6,"Spain"
+2874,1988,"2n Cycle",Divorced,35388.00,1,0,2013-03-07,20,"Saudi Arabia"
+2875,1978,Graduation,Married,67023.00,0,0,2014-03-04,93,"Spain"
+2877,1974,Master,Together,46014.00,1,1,2013-01-21,21,"Saudi Arabia"
+2878,1947,PhD,Married,67472.00,0,1,2013-09-28,93,"Spain"
+2882,1975,"2n Cycle",Divorced,67893.00,0,1,2012-10-01,31,"Saudi Arabia"
+2886,1971,Master,Divorced,74290.00,0,1,2013-08-12,70,"Spain"
+2891,1963,Graduation,Divorced,68118.00,0,1,2013-10-18,51,"USA"
+2894,1985,Graduation,Single,72903.00,0,0,2013-10-29,74,"Spain"
+2895,1963,Graduation,Single,49980.00,0,1,2013-10-23,79,"India"
+2902,1958,Graduation,Together,NULL,1,1,2012-09-03,87,"Australia"
+2909,1974,PhD,Married,78128.00,0,1,2014-02-19,89,"Germany"
+2918,1981,Graduation,Divorced,28510.00,1,1,2013-04-13,72,"Spain"
+2920,1975,PhD,Single,52614.00,0,1,2012-12-01,63,"Mexico"
+2926,1952,Master,Together,55951.00,0,1,2012-08-23,62,"Saudi Arabia"
+2928,1975,PhD,Single,52614.00,0,1,2012-12-01,63,"Spain"
+2929,1976,Graduation,Single,20180.00,0,0,2013-02-20,27,"Spain"
+2930,1978,Master,Single,68092.00,0,0,2013-12-16,7,"Saudi Arabia"
+2931,1978,Graduation,Divorced,71847.00,0,0,2012-09-21,95,"Spain"
+2936,1982,Master,Together,23661.00,1,0,2013-12-04,46,"Saudi Arabia"
+2937,1974,PhD,Single,68352.00,0,1,2013-08-28,47,"Canada"
+2939,1970,Master,Together,79419.00,0,0,2014-06-22,96,"Canada"
+2942,1964,Graduation,Single,45906.00,0,1,2013-05-07,20,"Spain"
+2945,1955,PhD,Together,46015.00,1,1,2014-04-13,25,"Canada"
+2948,1954,Master,Divorced,62637.00,0,1,2014-03-01,76,"Canada"
+2952,1977,Master,Single,36273.00,1,0,2014-04-16,80,"Spain"
+2958,1978,Graduation,Married,28442.00,2,0,2014-02-24,53,"Spain"
+2961,1982,Graduation,Married,42081.00,1,0,2013-02-26,86,"Spain"
+2963,1979,Graduation,Together,75507.00,0,0,2014-05-02,56,"Australia"
+2964,1981,Graduation,Married,26872.00,0,0,2013-10-16,0,"Canada"
+2968,1943,PhD,Divorced,48948.00,0,0,2013-02-01,53,"Australia"
+2975,1976,Graduation,Together,85606.00,0,1,2012-11-12,89,"Spain"
+2980,1952,Master,Single,8820.00,1,1,2013-03-22,52,"Canada"
+2986,1976,Graduation,Married,30772.00,1,1,2014-03-12,89,"Canada"
+2995,1957,Master,Together,66636.00,0,0,2013-08-17,64,"Spain"
+3005,1992,Graduation,Single,83528.00,0,0,2014-05-01,7,"Spain"
+3006,1976,Graduation,Divorced,30992.00,1,0,2013-04-22,83,"Canada"
+3007,1966,Graduation,Together,37758.00,1,1,2012-10-04,49,"India"
+3009,1962,PhD,Widow,71670.00,0,0,2013-07-09,8,"Spain"
+3010,1989,Master,Together,88420.00,0,0,2014-05-02,87,"Spain"
+3011,1965,Graduation,Married,69139.00,0,1,2014-01-27,23,"Saudi Arabia"
+3025,1958,Graduation,Single,49967.00,0,1,2013-07-08,4,"Canada"
+3032,1984,Graduation,Married,24570.00,1,0,2013-02-27,97,"Spain"
+3033,1963,Master,Together,38620.00,0,0,2013-05-11,56,"Australia"
+3037,1983,PhD,Married,50150.00,0,0,2013-06-20,32,"Canada"
+3050,1966,Graduation,Married,54198.00,1,1,2013-12-17,13,"Spain"
+3056,1978,Graduation,Divorced,63693.00,0,1,2013-10-14,63,"Saudi Arabia"
+3066,1975,PhD,Together,61905.00,0,1,2014-02-04,2,"Saudi Arabia"
+3068,1990,Graduation,Married,18351.00,0,0,2013-10-29,1,"Spain"
+3074,1984,PhD,Married,70643.00,0,0,2012-10-15,66,"Spain"
+3075,1972,PhD,Married,59973.00,0,0,2013-09-11,47,"Spain"
+3076,1975,Graduation,Together,66653.00,1,1,2012-09-07,18,"Australia"
+3081,1978,PhD,Married,41014.00,1,0,2013-04-22,65,"Spain"
+3083,1974,Graduation,Married,45837.00,1,1,2013-07-26,88,"Spain"
+3091,1981,"2n Cycle",Together,75774.00,1,0,2014-05-02,27,"Saudi Arabia"
+3099,1970,Graduation,Divorced,44267.00,1,1,2013-02-25,48,"Spain"
+3102,1981,"2n Cycle",Together,19414.00,1,0,2013-10-16,32,"Canada"
+3104,1961,Graduation,Single,82332.00,0,0,2012-09-17,89,"Germany"
+3107,1976,Graduation,Together,71322.00,0,1,2014-05-02,31,"Australia"
+3112,1977,Master,Married,22701.00,1,0,2013-09-05,2,"Spain"
+3117,1955,Graduation,Single,NULL,0,1,2013-10-18,95,"Australia"
+3120,1981,Graduation,Together,38547.00,1,0,2013-08-28,49,"Canada"
+3129,1983,Graduation,Married,30096.00,1,0,2014-05-22,30,"Spain"
+3130,1964,Graduation,Single,18701.00,1,1,2013-06-04,95,"Spain"
+3136,1962,Master,Divorced,59432.00,0,1,2013-04-13,88,"Spain"
+3138,1956,Graduation,Single,91249.00,0,0,2012-10-20,84,"Spain"
+3139,1982,"2n Cycle",Single,74116.00,0,0,2013-12-30,53,"Saudi Arabia"
+3152,1957,Graduation,Together,26091.00,1,1,2014-02-25,84,"India"
+3153,1957,PhD,Single,40737.00,2,1,2013-12-08,24,"Saudi Arabia"
+3158,1973,Graduation,Married,32300.00,1,0,2013-01-03,1,"Spain"
+3170,1957,Master,Together,68148.00,0,0,2013-08-31,86,"Spain"
+3174,1959,Graduation,Together,87771.00,0,1,2013-05-22,61,"Spain"
+3179,1980,Graduation,Single,81741.00,0,0,2013-06-16,75,"Spain"
+3182,1973,PhD,Single,46854.00,1,1,2014-03-31,81,"India"
+3194,1974,PhD,Single,71466.00,0,0,2014-04-05,86,"Canada"
+3197,1980,Graduation,Married,77353.00,0,1,2013-12-16,38,"Spain"
+3202,1987,PhD,Married,51563.00,0,0,2012-10-01,60,"Saudi Arabia"
+3220,1983,Graduation,Married,39922.00,1,0,2013-02-14,30,"Germany"
+3225,1984,Master,Married,42207.00,1,0,2013-04-01,71,"Spain"
+3231,1973,Graduation,Married,37971.00,1,0,2013-11-25,97,"USA"
+3233,1965,PhD,Married,62745.00,0,1,2013-03-23,89,"Saudi Arabia"
+3254,1971,Graduation,Married,70886.00,1,0,2013-10-14,65,"Spain"
+3262,1958,Graduation,Single,68281.00,0,0,2012-08-07,31,"Spain"
+3265,1959,Graduation,Married,35701.00,0,0,2013-03-19,36,"Spain"
+3266,1964,Graduation,Married,42523.00,0,0,2014-04-23,96,"Canada"
+3267,1963,Master,Together,57288.00,0,1,2014-06-25,27,"Canada"
+3270,1978,"2n Cycle",Together,17117.00,1,0,2013-01-17,96,"Saudi Arabia"
+3276,1976,"2n Cycle",Together,36301.00,1,0,2013-10-25,53,"Saudi Arabia"
+3277,1955,Graduation,Divorced,49431.00,0,1,2012-08-03,9,"Spain"
+3281,1960,PhD,Married,49154.00,1,1,2013-11-03,69,"Spain"
+3283,1972,"2n Cycle",Married,70932.00,0,1,2014-01-19,57,"Spain"
+3286,1967,PhD,Divorced,26642.00,1,0,2014-03-01,71,"Spain"
+3298,1956,Master,Married,52973.00,0,1,2012-11-08,92,"Saudi Arabia"
+3308,1952,Graduation,Married,35704.00,1,1,2014-01-03,54,"Saudi Arabia"
+3310,1973,"2n Cycle",Married,35688.00,2,1,2012-08-22,94,"Spain"
+3312,1988,Graduation,Single,34176.00,1,0,2014-05-12,12,"India"
+3321,1967,PhD,Together,56575.00,0,2,2013-05-05,42,"Canada"
+3332,1985,Graduation,Single,29760.00,1,0,2012-08-29,87,"Germany"
+3334,1951,Graduation,Married,94642.00,0,0,2014-02-12,35,"Spain"
+3336,1948,PhD,Together,66375.00,0,1,2013-11-21,96,"Australia"
+3340,1977,Graduation,Married,42014.00,1,0,2012-08-17,56,"Canada"
+3363,1974,"2n Cycle",Married,20130.00,0,0,2014-03-17,99,"Spain"
+3376,1970,Master,Divorced,55282.00,1,0,2013-12-13,9,"Spain"
+3381,1953,Master,Married,54348.00,1,1,2014-06-08,51,"Canada"
+3386,1992,Graduation,Married,34935.00,0,0,2013-06-21,71,"Spain"
+3388,1967,Graduation,Divorced,70844.00,1,1,2013-10-30,16,"Germany"
+3389,1970,Graduation,Married,69016.00,0,1,2012-11-22,61,"Spain"
+3403,1958,PhD,Together,78952.00,0,1,2012-09-24,11,"Spain"
+3406,1964,Graduation,Single,45989.00,0,1,2012-10-22,97,"Saudi Arabia"
+3409,1984,Graduation,Single,36108.00,1,0,2013-10-15,68,"Saudi Arabia"
+3412,1951,Master,Married,67381.00,0,1,2013-01-15,67,"Spain"
+3421,1968,Master,Divorced,63841.00,0,1,2013-04-21,64,"Australia"
+3422,1975,Graduation,Married,76068.00,0,1,2012-11-29,67,"Germany"
+3426,1975,Graduation,Divorced,70300.00,1,0,2013-07-15,89,"Spain"
+3427,1955,PhD,Married,59821.00,0,1,2013-04-12,11,"Saudi Arabia"
+3428,1991,PhD,Together,68682.00,0,0,2013-10-06,56,"Spain"
+3433,1955,"2n Cycle",Married,72635.00,0,0,2013-06-03,54,"Spain"
+3434,1951,Graduation,Single,80872.00,0,0,2014-05-12,60,"Spain"
+3436,1969,Graduation,Married,14045.00,1,0,2014-01-26,24,"Spain"
+3439,1972,Graduation,Married,56721.00,1,1,2012-10-31,64,"Spain"
+3445,1956,Graduation,Single,60714.00,0,0,2013-01-17,56,"Saudi Arabia"
+3463,1975,PhD,Married,69283.00,0,1,2014-06-14,41,"India"
+3469,1977,PhD,Divorced,34487.00,1,1,2012-09-06,94,"Spain"
+3478,1971,PhD,Married,60585.00,1,1,2013-06-24,17,"Canada"
+3479,1950,Graduation,Single,16813.00,0,0,2013-07-19,49,"Canada"
+3483,1958,Graduation,Married,48192.00,0,0,2013-04-06,76,"Canada"
+3491,1975,Graduation,Together,55914.00,0,1,2013-04-29,32,"USA"
+3498,1976,PhD,Married,55424.00,0,1,2012-11-25,6,"Spain"
+3503,1950,Graduation,Divorced,82460.00,0,0,2013-12-02,78,"Saudi Arabia"
+3507,1970,Graduation,Single,76467.00,1,0,2012-08-17,44,"USA"
+3515,1952,Graduation,Single,62307.00,0,1,2014-02-17,94,"Spain"
+3517,1952,Graduation,Single,40887.00,1,1,2013-05-06,32,"Spain"
+3518,1983,Graduation,Married,25271.00,1,0,2012-12-05,45,"India"
+3520,1990,Master,Single,91172.00,0,0,2013-03-27,94,"Canada"
+3523,1962,Graduation,Together,75072.00,0,1,2013-01-23,83,"Spain"
+3524,1971,Master,Single,39763.00,1,0,2013-08-04,9,"Spain"
+3525,1970,Graduation,Together,38200.00,1,1,2012-12-07,19,"Spain"
+3526,1968,PhD,Married,38443.00,1,1,2014-01-27,58,"Spain"
+3535,1965,Graduation,Single,66294.00,0,0,2014-03-17,68,"Spain"
+3536,1960,Graduation,Together,19740.00,0,1,2013-03-24,65,"India"
+3537,1981,Graduation,Together,31089.00,1,0,2012-08-17,57,"Spain"
+3547,1969,Master,Together,41021.00,1,0,2012-12-30,12,"Saudi Arabia"
+3551,1954,Master,Together,60033.00,0,1,2014-03-29,28,"Spain"
+3559,1988,"2n Cycle",Married,16248.00,1,0,2014-05-10,77,"India"
+3560,1952,Graduation,Together,83844.00,0,0,2013-05-12,57,"Germany"
+3565,1955,Master,Married,38452.00,1,1,2014-03-30,62,"Spain"
+3570,1969,PhD,Together,42731.00,1,0,2013-10-21,64,"Saudi Arabia"
+3571,1961,PhD,Together,63342.00,0,1,2012-10-16,48,"Spain"
+3578,1949,Graduation,Divorced,49160.00,0,1,2013-10-20,29,"Spain"
+3584,1955,PhD,Single,49667.00,0,0,2012-08-20,35,"Canada"
+3594,1973,Master,Married,54108.00,1,1,2012-11-05,74,"Canada"
+3595,1963,Graduation,Together,77226.00,0,1,2014-02-28,29,"Spain"
+3598,1972,Graduation,Married,62710.00,0,1,2013-05-23,53,"Spain"
+3599,1970,Graduation,Married,63684.00,0,1,2012-11-26,61,"Spain"
+3602,1958,Master,Married,51412.00,0,1,2013-12-31,42,"Spain"
+3619,1960,"2n Cycle",Divorced,87305.00,0,0,2012-09-23,19,"Australia"
+3623,1976,Graduation,Together,21675.00,1,0,2014-06-11,55,"India"
+3628,1987,Basic,Single,15038.00,1,0,2013-01-29,93,"Spain"
+3629,1978,Graduation,Single,38557.00,1,0,2012-12-19,17,"Canada"
+3635,1962,PhD,Single,52597.00,0,1,2014-05-07,69,"Saudi Arabia"
+3641,1976,Graduation,Married,13624.00,1,0,2013-01-20,93,"Spain"
+3643,1974,Master,Married,63206.00,0,0,2014-03-20,65,"Canada"
+3645,1972,PhD,Single,27213.00,1,0,2012-08-30,19,"Spain"
+3657,1986,Graduation,Single,39146.00,1,0,2013-02-14,1,"Spain"
+3661,1995,"2n Cycle",Single,80617.00,0,0,2012-10-12,42,"India"
+3665,1977,"2n Cycle",Together,25315.00,1,0,2013-11-07,46,"Spain"
+3667,1969,Graduation,Married,80952.00,0,0,2013-02-28,20,"Germany"
+3673,1971,Graduation,Single,55239.00,0,1,2013-07-14,59,"Saudi Arabia"
+3678,1973,Graduation,Widow,60208.00,1,1,2012-10-07,13,"Spain"
+3690,1986,Master,Married,80141.00,0,0,2013-01-11,20,"Spain"
+3696,1965,Graduation,Divorced,30630.00,1,1,2014-01-27,67,"Spain"
+3697,1954,Graduation,Together,39898.00,0,1,2013-02-12,20,"Canada"
+3698,1983,Graduation,Together,78687.00,0,0,2012-08-09,13,"Spain"
+3706,1978,Graduation,Single,28647.00,1,0,2013-08-21,54,"Spain"
+3710,1984,PhD,Single,39684.00,1,0,2012-10-12,41,"Spain"
+3711,1944,Master,Married,80184.00,0,0,2014-03-01,19,"Spain"
+3712,1959,Graduation,Divorced,52332.00,0,0,2013-08-28,63,"India"
+3717,1959,Graduation,Married,61180.00,0,1,2014-04-23,70,"Spain"
+3722,1972,Graduation,Single,44503.00,1,1,2014-04-16,83,"Spain"
+3725,1961,PhD,Single,84865.00,0,0,2013-05-09,1,"Spain"
+3726,1986,PhD,Together,34320.00,1,0,2014-02-16,66,"Saudi Arabia"
+3732,1955,Master,Married,52750.00,0,1,2013-02-04,72,"Canada"
+3745,1988,"2n Cycle",Married,23331.00,1,0,2012-09-04,92,"India"
+3749,1973,Graduation,Together,73926.00,0,0,2013-03-02,54,"Canada"
+3759,1958,Graduation,Together,65196.00,0,2,2013-07-25,34,"Spain"
+3762,1986,PhD,Single,69867.00,0,0,2013-04-02,30,"Saudi Arabia"
+3766,1959,Master,Widow,33051.00,0,0,2012-08-16,15,"Spain"
+3767,1968,Graduation,Married,61314.00,0,1,2013-04-25,1,"Spain"
+3769,1972,PhD,Together,NULL,1,0,2014-03-02,17,"Australia"
+3783,1959,PhD,Married,52854.00,1,1,2014-03-24,43,"Saudi Arabia"
+3790,1956,Graduation,Together,34633.00,2,1,2014-01-23,31,"Saudi Arabia"
+3798,1968,Graduation,Married,41120.00,1,1,2013-11-06,80,"Spain"
+3799,1955,Graduation,Married,67225.00,0,1,2013-11-26,4,"USA"
+3807,1955,Graduation,Together,59925.00,0,1,2012-11-30,83,"Spain"
+3828,1951,Graduation,Married,71107.00,0,1,2013-02-17,61,"Spain"
+3829,1979,Basic,Together,24594.00,1,0,2013-12-10,94,"Saudi Arabia"
+3830,1953,Master,Married,59354.00,0,2,2014-04-24,59,"Canada"
+3834,1962,Graduation,Single,69627.00,0,1,2013-03-17,35,"USA"
+3839,1958,Basic,Single,15056.00,1,1,2013-05-03,76,"Spain"
+3846,1974,Graduation,Married,42557.00,0,1,2012-08-29,98,"Spain"
+3850,1963,Basic,Together,14918.00,0,1,2012-12-07,52,"India"
+3852,1961,Master,Together,74881.00,1,1,2013-03-08,48,"India"
+3855,1963,Graduation,Married,22419.00,0,0,2013-04-18,74,"Canada"
+3856,1960,Graduation,Together,63381.00,0,1,2012-10-05,78,"Spain"
+3859,1947,PhD,Together,73059.00,0,1,2013-08-31,36,"Saudi Arabia"
+3865,1977,"2n Cycle",Together,20981.00,0,0,2013-04-30,14,"Canada"
+3867,1947,PhD,Together,73059.00,0,1,2013-08-31,36,"Spain"
+3870,1978,"2n Cycle",Together,63855.00,0,0,2013-02-09,28,"Germany"
+3878,1980,"2n Cycle",Single,31859.00,1,0,2014-02-27,3,"Spain"
+3885,1983,PhD,Married,33569.00,1,0,2013-10-16,10,"Spain"
+3887,1970,Graduation,Single,27242.00,1,0,2012-11-11,2,"India"
+3896,1984,Graduation,Married,27255.00,1,0,2013-11-07,3,"Spain"
+3900,1972,Graduation,Married,65685.00,0,1,2014-03-29,54,"Canada"
+3910,1975,Graduation,Divorced,83829.00,0,0,2013-10-08,78,"Spain"
+3916,1971,PhD,Together,49269.00,1,0,2012-08-15,92,"Spain"
+3919,1976,Master,Single,72309.00,0,0,2013-03-11,64,"Canada"
+3921,1952,"2n Cycle",Widow,28457.00,0,0,2012-10-28,96,"Spain"
+3924,1965,PhD,Divorced,57912.00,0,1,2014-03-17,34,"Saudi Arabia"
+3933,1980,Graduation,Together,44010.00,1,0,2012-10-13,46,"Saudi Arabia"
+3934,1966,Graduation,Married,61286.00,0,1,2013-08-02,34,"India"
+3945,1947,PhD,Widow,68117.00,0,1,2013-03-10,80,"Spain"
+3955,1965,Graduation,Divorced,4861.00,0,0,2014-06-22,20,"Saudi Arabia"
+3967,1971,PhD,Married,78931.00,0,0,2013-10-25,19,"Canada"
+3968,1970,"2n Cycle",Divorced,65706.00,0,0,2013-06-28,77,"Canada"
+3969,1974,Master,Together,43018.00,0,1,2013-11-01,46,"Germany"
+3972,1976,Graduation,Together,50200.00,1,1,2013-04-03,70,"Spain"
+3979,1983,PhD,Divorced,90687.00,0,0,2013-05-22,98,"Spain"
+4001,1946,PhD,Together,64014.00,2,1,2014-06-10,56,"Saudi Arabia"
+4002,1960,PhD,Married,77037.00,0,1,2013-10-13,3,"Spain"
+4012,1972,PhD,Together,62220.00,0,1,2012-08-11,55,"Germany"
+4023,1970,Graduation,Married,22979.00,1,0,2012-09-06,29,"Spain"
+4037,1976,Graduation,Divorced,31859.00,1,0,2013-06-14,77,"Saudi Arabia"
+4042,1971,Graduation,Divorced,43300.00,0,1,2012-10-13,87,"Canada"
+4047,1954,PhD,Married,65324.00,0,1,2014-01-11,0,"USA"
+4050,1966,Master,Married,49605.00,0,0,2014-06-21,65,"Canada"
+4055,1992,Basic,Single,18746.00,1,0,2014-05-29,41,"Spain"
+4058,1955,PhD,Single,61284.00,0,0,2013-10-12,76,"Spain"
+4065,1976,PhD,Married,49544.00,1,0,2013-02-12,0,"Spain"
+4066,1978,"2n Cycle",Divorced,21282.00,1,0,2014-05-11,76,"Spain"
+4070,1969,PhD,Married,94871.00,0,2,2012-09-01,99,"Canada"
+4073,1954,"2n Cycle",Married,63564.00,0,0,2014-01-29,0,"Germany"
+4084,1975,Graduation,Together,60934.00,0,1,2014-01-17,41,"Canada"
+4086,1959,Graduation,Married,18690.00,0,0,2012-12-28,77,"Germany"
+4088,1962,PhD,Together,31497.00,0,1,2012-12-06,22,"Spain"
+4093,1975,Master,Together,53253.00,1,1,2013-02-11,61,"Canada"
+4094,1961,Graduation,Married,60544.00,1,1,2012-08-25,92,"Australia"
+4095,1971,Graduation,Married,37150.00,1,0,2012-09-11,80,"USA"
+4096,1968,Master,Divorced,41335.00,1,0,2013-12-26,24,"USA"
+4098,1973,Graduation,Married,24639.00,1,1,2014-01-28,3,"Australia"
+4099,1972,Graduation,Married,30675.00,1,0,2012-11-12,14,"Spain"
+4102,1975,"2n Cycle",Married,37284.00,1,1,2013-03-29,46,"Spain"
+4107,1948,PhD,Together,46681.00,0,2,2013-10-08,52,"Spain"
+4114,1964,Master,Married,79143.00,0,0,2012-08-11,2,"Australia"
+4119,1963,Master,Together,38620.00,0,0,2013-05-11,56,"Germany"
+4120,1975,"2n Cycle",Single,49514.00,1,0,2013-12-17,61,"India"
+4122,1975,Graduation,Married,79205.00,0,0,2012-08-29,73,"Spain"
+4127,1967,PhD,Married,77766.00,0,1,2013-02-22,97,"Spain"
+4128,1962,PhD,Together,56067.00,0,1,2013-07-20,51,"Saudi Arabia"
+4136,1992,Basic,Single,7500.00,1,0,2012-12-03,63,"Spain"
+4137,1948,Graduation,Together,70666.00,0,0,2013-12-06,29,"Australia"
+4138,1962,Graduation,Single,76624.00,0,1,2014-05-24,68,"Spain"
+4141,1965,Graduation,Together,71613.00,0,0,2013-08-21,26,"USA"
+4148,1972,Graduation,Married,38988.00,1,2,2012-08-20,90,"Spain"
+4149,1948,PhD,Together,76140.00,0,0,2014-05-13,57,"Spain"
+4168,1966,Graduation,Single,37070.00,1,1,2013-03-20,30,"Spain"
+4174,1956,Master,Together,55249.00,0,1,2014-04-17,81,"Spain"
+4179,1959,Graduation,Together,24221.00,0,0,2013-08-20,94,"Spain"
+4184,1950,PhD,Together,52157.00,0,1,2014-06-07,48,"Spain"
+4186,1950,Graduation,Together,34026.00,1,1,2013-08-05,11,"Canada"
+4188,1957,Graduation,Single,36864.00,0,1,2012-08-13,53,"Australia"
+4198,1965,Graduation,Together,29672.00,1,1,2013-03-12,6,"Spain"
+4200,1970,Master,Married,44159.00,1,0,2014-06-17,85,"Saudi Arabia"
+4201,1962,Graduation,Single,57967.00,0,1,2013-03-03,39,"India"
+4207,1981,PhD,Married,87171.00,0,0,2013-05-01,27,"Spain"
+4211,1986,Basic,Married,20425.00,1,0,2012-10-29,5,"Canada"
+4216,1981,Graduation,Single,91065.00,0,0,2013-02-22,33,"Spain"
+4220,1970,PhD,Married,59892.00,0,1,2013-11-02,26,"Canada"
+4227,1968,Master,Together,32889.00,1,1,2013-09-06,78,"Spain"
+4240,1978,Graduation,Married,17345.00,1,0,2012-11-03,79,"Spain"
+4246,1982,Master,Single,6560.00,0,0,2013-12-12,2,"Spain"
+4248,1960,Master,Single,98777.00,0,0,2014-02-17,23,"Spain"
+4252,1965,Graduation,Married,44375.00,0,1,2014-03-23,73,"Spain"
+4259,1986,Master,Single,19485.00,2,0,2013-09-24,80,"India"
+4261,1946,PhD,Single,82800.00,0,0,2012-11-24,23,"Saudi Arabia"
+4268,1959,Graduation,Married,53154.00,0,1,2014-06-09,50,"USA"
+4271,1989,"2n Cycle",Together,38683.00,1,0,2012-10-04,80,"India"
+4278,1983,PhD,Single,87188.00,0,0,2013-06-03,73,"India"
+4279,1963,"2n Cycle",Single,39548.00,1,1,2014-03-31,87,"Spain"
+4286,1970,PhD,Single,57642.00,0,1,2014-01-09,24,"India"
+4290,1972,Graduation,Married,30467.00,1,0,2014-03-19,8,"Canada"
+4297,1969,Graduation,Together,23228.00,1,0,2014-01-26,71,"India"
+4298,1973,PhD,Together,20427.00,1,0,2014-03-24,63,"Spain"
+4299,1960,Graduation,Together,70971.00,0,1,2012-09-21,28,"Spain"
+4301,1971,Master,Married,35178.00,1,0,2013-01-10,10,"Australia"
+4303,1957,PhD,Together,6835.00,0,1,2012-12-08,76,"Canada"
+4310,1944,Graduation,Married,80589.00,0,0,2014-01-22,25,"Australia"
+4320,1979,Graduation,Single,60152.00,0,1,2013-03-28,6,"Spain"
+4322,1958,PhD,Together,77863.00,0,0,2013-11-27,20,"Spain"
+4324,1989,Graduation,Married,42387.00,1,0,2012-10-29,42,"Spain"
+4328,1986,"2n Cycle",Married,21955.00,1,0,2013-09-07,81,"Spain"
+4329,1984,PhD,Married,18988.00,1,0,2014-05-23,43,"Australia"
+4331,1978,Master,Together,85738.00,0,0,2014-01-23,41,"Spain"
+4333,1954,Graduation,Together,32144.00,1,1,2014-03-23,76,"India"
+4338,1983,Graduation,Single,39062.00,1,0,2014-03-25,28,"Spain"
+4339,1970,PhD,Married,67353.00,0,1,2013-12-31,37,"Australia"
+4345,1964,"2n Cycle",Single,NULL,1,1,2014-01-12,49,"Australia"
+4351,1955,Graduation,Divorced,37244.00,1,1,2013-04-27,90,"Spain"
+4356,1971,Graduation,Together,71819.00,0,1,2013-08-28,70,"Spain"
+4368,1980,Graduation,Married,47850.00,1,0,2013-12-03,72,"Spain"
+4369,1957,Master,Absurd,65487.00,0,0,2014-01-10,48,"Canada"
+4370,1966,Graduation,Together,43482.00,2,1,2013-11-13,83,"India"
+4376,1960,"2n Cycle",Single,32218.00,0,0,2014-02-15,27,"Spain"
+4377,1971,Graduation,Married,52914.00,0,1,2013-01-07,32,"Canada"
+4381,1971,PhD,Married,46463.00,1,1,2013-08-18,56,"Spain"
+4385,1981,PhD,Single,36038.00,1,0,2013-05-31,82,"Spain"
+4390,1954,Graduation,Together,75315.00,0,1,2014-04-15,14,"Saudi Arabia"
+4391,1968,Master,Divorced,63841.00,0,1,2013-04-21,64,"Saudi Arabia"
+4394,1965,PhD,Married,81051.00,0,0,2014-05-23,43,"Spain"
+4399,1969,Graduation,Together,68695.00,0,0,2014-06-25,3,"Canada"
+4405,1956,Master,Married,63915.00,0,2,2013-07-30,2,"Australia"
+4406,1970,Graduation,Together,67419.00,0,1,2013-01-16,29,"Canada"
+4415,1961,Graduation,Married,16860.00,1,1,2012-09-12,19,"Spain"
+4418,1983,Master,Single,89616.00,0,0,2013-02-25,36,"Canada"
+4426,1975,Graduation,Single,55801.00,1,1,2013-09-22,35,"USA"
+4427,1995,"2n Cycle",Single,83257.00,0,0,2012-09-18,56,"Spain"
+4432,1976,Graduation,Divorced,31615.00,1,0,2013-03-16,82,"Spain"
+4436,1976,Graduation,Single,20180.00,0,0,2013-02-20,27,"Spain"
+4437,1962,Graduation,Married,65316.00,1,1,2013-04-24,65,"Spain"
+4440,1964,Master,Married,64100.00,0,1,2013-09-10,93,"Saudi Arabia"
+4442,1961,Graduation,Single,46524.00,0,1,2013-04-05,70,"Canada"
+4444,1972,Graduation,Married,30023.00,1,0,2014-03-24,28,"Spain"
+4452,1957,Graduation,Single,50388.00,0,1,2014-05-28,3,"Germany"
+4459,1989,Graduation,Single,30279.00,1,0,2012-12-30,13,"Spain"
+4470,1962,Master,Married,58646.00,0,1,2013-06-10,3,"Spain"
+4472,1970,PhD,Divorced,35682.00,1,0,2014-06-27,34,"Australia"
+4475,1949,PhD,Married,69098.00,0,0,2013-02-16,82,"Spain"
+4477,1958,Graduation,Together,69096.00,0,1,2013-09-27,4,"Germany"
+4478,1979,Graduation,Married,63777.00,1,1,2013-03-24,87,"India"
+4480,1973,Master,Married,60432.00,0,1,2014-03-09,61,"Saudi Arabia"
+4483,1993,Graduation,Single,72354.00,0,0,2013-04-17,67,"Saudi Arabia"
+4487,1969,Master,Single,39858.00,1,0,2013-01-24,67,"Saudi Arabia"
+4491,1949,Master,Married,62845.00,1,1,2012-10-01,3,"Spain"
+4500,1991,PhD,Together,68682.00,0,0,2013-10-06,56,"Spain"
+4501,1965,Master,Single,69882.00,0,0,2013-11-10,94,"Spain"
+4507,1952,Graduation,Single,72228.00,0,0,2012-11-27,87,"Spain"
+4508,1952,Graduation,Single,75127.00,0,0,2014-05-22,92,"Germany"
+4518,1979,Graduation,Together,85693.00,0,1,2013-04-20,59,"Canada"
+4530,1948,Master,Widow,78427.00,0,0,2012-10-24,36,"Germany"
+4541,1955,Graduation,Together,38946.00,0,1,2013-10-24,84,"Canada"
+4543,1980,Graduation,Married,82497.00,0,0,2012-10-31,32,"Saudi Arabia"
+4547,1960,Graduation,Together,13672.00,1,1,2013-04-17,86,"Spain"
+4548,1981,Graduation,Single,41967.00,1,1,2013-11-23,66,"Canada"
+4550,1966,Master,Together,33564.00,0,1,2014-06-24,51,"Spain"
+4552,1991,Graduation,Married,51373.00,0,0,2013-06-22,37,"Spain"
+4554,1965,Graduation,Together,47009.00,0,1,2013-10-01,89,"Spain"
+4557,1970,Graduation,Together,22070.00,1,0,2013-10-04,11,"Saudi Arabia"
+4580,1969,Graduation,Married,75759.00,0,0,2013-10-25,46,"Saudi Arabia"
+4587,1944,Master,Widow,45006.00,0,0,2013-07-18,90,"Spain"
+4597,1970,PhD,Together,82072.00,0,0,2013-07-02,67,"Saudi Arabia"
+4599,1976,Master,Married,49681.00,0,2,2013-11-04,66,"Canada"
+4603,1960,PhD,Married,65695.00,0,1,2014-01-31,50,"Spain"
+4607,1959,Graduation,Together,71367.00,0,0,2013-08-23,24,"Spain"
+4608,1987,Graduation,Divorced,81361.00,0,0,2014-02-25,18,"Saudi Arabia"
+4609,1966,PhD,Married,57705.00,0,1,2014-01-11,14,"Spain"
+4611,1970,Graduation,Together,105471.00,0,0,2013-01-21,36,"Spain"
+4619,1945,PhD,Single,113734.00,0,0,2014-05-28,9,"Spain"
+4637,1954,PhD,Single,74637.00,0,0,2013-05-18,73,"Saudi Arabia"
+4640,1967,Graduation,Divorced,70647.00,0,1,2012-09-21,65,"Saudi Arabia"
+4643,1973,Graduation,Married,27803.00,1,0,2012-08-26,40,"Australia"
+4646,1951,"2n Cycle",Married,78497.00,0,0,2013-12-01,44,"Canada"
+4653,1978,Graduation,Together,42011.00,1,0,2013-03-26,46,"Saudi Arabia"
+4654,1992,Graduation,Together,75114.00,0,0,2013-11-07,40,"Saudi Arabia"
+4656,1990,"2n Cycle",Single,51250.00,1,0,2013-03-30,28,"Saudi Arabia"
+4669,1981,Basic,Married,24480.00,1,0,2013-02-11,46,"Saudi Arabia"
+4673,1963,PhD,Married,81300.00,0,1,2012-10-30,17,"Spain"
+4676,1951,Master,Widow,73705.00,0,2,2014-03-05,86,"Spain"
+4679,1977,Master,Married,78710.00,0,1,2014-05-23,42,"Spain"
+4682,1958,Graduation,Married,51876.00,0,0,2013-10-15,88,"Germany"
+4686,1962,PhD,Widow,82571.00,0,0,2014-04-02,28,"Spain"
+4687,1958,Master,Married,80739.00,0,0,2013-05-23,92,"Spain"
+4690,1953,Graduation,Married,50725.00,0,1,2013-02-13,45,"Canada"
+4692,1976,Graduation,Married,7500.00,1,0,2012-08-01,19,"Australia"
+4697,1949,Master,Divorced,35416.00,0,0,2013-06-13,62,"Saudi Arabia"
+4698,1983,PhD,Married,50150.00,0,0,2013-06-20,32,"Spain"
+4702,1964,Graduation,Single,61839.00,0,0,2012-08-12,20,"Spain"
+4706,1966,Graduation,Single,34704.00,0,1,2013-04-27,65,"Canada"
+4712,1991,"2n Cycle",Together,20193.00,0,0,2012-11-28,18,"Spain"
+4713,1979,PhD,Married,31605.00,1,0,2012-11-22,15,"Spain"
+4725,1950,PhD,Together,50616.00,0,1,2014-04-13,71,"Spain"
+4741,1974,"2n Cycle",Married,65463.00,1,0,2014-01-30,17,"Spain"
+4743,1969,PhD,Married,56242.00,0,1,2013-03-03,72,"USA"
+4749,1968,Graduation,Together,58554.00,1,1,2012-09-26,55,"India"
+4754,1966,Master,Married,33585.00,0,1,2013-09-25,91,"Spain"
+4756,1952,"2n Cycle",Divorced,63998.00,0,0,2013-12-20,42,"Spain"
+4764,1952,Master,Together,40442.00,1,1,2012-08-19,52,"Saudi Arabia"
+4767,1965,"2n Cycle",Married,70924.00,0,0,2014-04-07,41,"Spain"
+4769,1977,Master,Together,57954.00,1,1,2014-06-18,52,"Spain"
+4785,1970,PhD,Together,77622.00,0,2,2014-04-14,3,"Saudi Arabia"
+4786,1977,Graduation,Married,75330.00,1,1,2012-10-04,94,"USA"
+4789,1953,Graduation,Together,80812.00,0,0,2013-09-17,95,"India"
+4790,1958,Graduation,Divorced,79803.00,0,1,2014-06-02,54,"Spain"
+4791,1980,Graduation,Together,44964.00,1,1,2012-12-16,35,"Australia"
+4796,1952,Graduation,Divorced,49638.00,0,1,2014-04-19,71,"Spain"
+4808,1956,Graduation,Married,15759.00,0,0,2013-09-05,12,"Spain"
+4817,1956,Graduation,Divorced,22304.00,0,0,2012-08-04,91,"Spain"
+4827,1956,PhD,Single,54998.00,0,1,2013-03-10,3,"Spain"
+4828,1954,Graduation,Divorced,79865.00,0,1,2014-06-18,12,"Saudi Arabia"
+4832,1979,Graduation,Married,27244.00,1,0,2014-03-07,84,"Spain"
+4837,1965,PhD,Married,71322.00,0,1,2013-02-16,57,"Spain"
+4838,1978,Graduation,Together,22775.00,1,0,2013-06-19,40,"India"
+4843,1952,Graduation,Single,75127.00,0,0,2014-05-22,92,"Saudi Arabia"
+4855,1974,PhD,Together,30351.00,1,0,2013-06-06,19,"USA"
+4856,1957,"2n Cycle",Married,82347.00,0,0,2012-11-06,38,"India"
+4860,1970,Graduation,Single,24206.00,1,0,2013-03-08,66,"Spain"
+4864,1977,Graduation,Married,34380.00,1,0,2013-05-02,68,"Canada"
+4865,1974,Master,Divorced,53367.00,1,1,2013-08-31,2,"Australia"
+4867,1968,PhD,Single,38236.00,1,1,2013-09-20,2,"Spain"
+4877,1973,Master,Married,38576.00,0,1,2014-03-04,2,"India"
+4887,1976,PhD,Divorced,55412.00,1,1,2013-11-22,65,"Canada"
+4910,1967,Graduation,Divorced,68743.00,0,0,2012-08-30,81,"USA"
+4915,1956,"2n Cycle",Married,53230.00,0,1,2012-08-03,86,"Germany"
+4927,1971,Graduation,Together,16626.00,2,0,2014-01-15,76,"Saudi Arabia"
+4931,1977,Graduation,Together,157146.00,0,0,2013-04-29,13,"Saudi Arabia"
+4937,1973,"2n Cycle",Married,46094.00,1,1,2014-06-10,62,"Spain"
+4939,1946,Graduation,Together,37760.00,0,0,2012-08-31,20,"USA"
+4943,1953,Graduation,Married,70503.00,0,0,2012-09-30,73,"Spain"
+4944,1959,Graduation,Together,71367.00,0,0,2013-08-23,24,"Spain"
+4945,1953,Graduation,Widow,53653.00,0,0,2012-11-07,29,"Spain"
+4947,1966,"2n Cycle",Single,89572.00,0,0,2012-09-15,44,"Spain"
+4954,1956,Graduation,Married,48195.00,1,1,2014-01-21,53,"Spain"
+4961,1974,Master,Together,21255.00,1,0,2014-01-21,56,"Spain"
+4964,1958,PhD,Together,74250.00,0,0,2014-01-26,90,"Canada"
